@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Murecho&display=swap');
 html {
     box-sizing: border-box;
 }
@@ -6,7 +6,7 @@ html {
     box-sizing: inherit;
 }
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Murecho', sans-serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -24,7 +24,62 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color: #1F2937;
+    height: auto;
+    padding-bottom: 70px;
 }
 .header-container .navbar {
     display: flex;
+    margin-bottom: 3%;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+}
+.navbar-right a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-content {
+    display: flex;
+    gap: 200px;
+}
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-content .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+}
+.header-content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.header-content .placeholder {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #4B5563;
+}
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 12%;
+    width: 100px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E5E7EB;
 }
