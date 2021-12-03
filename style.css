@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Murecho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@400;500;900&display=swap');
 html {
     box-sizing: border-box;
 }
@@ -15,9 +15,13 @@ body {
 footer {
     /*Set body min-height: 100vh to push footer to bottom (with margin-top: auto)*/
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: auto;
-    height: 24px;
+    height: 72px;
     background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .header-container {
     display:flex;
