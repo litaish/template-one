@@ -108,7 +108,7 @@ button {
 }
 .card .box {
     border: 5px solid #3882F6;
-    border-radius: 13%;;
+    border-radius: 13%;
     width: 150px;
     height: 150px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -122,4 +122,36 @@ h3 {
 h4 {
     font-size: 18px;
     color: #9CA3AF;
+}
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8%; /*Make image fit container with no corners sticking out*/
+    object-fit: contain;
+}
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    gap: 30px;
+}
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+.quoter {
+    color: #1F2937;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
 }
