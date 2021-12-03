@@ -77,10 +77,10 @@ p {
     color: #E5E7EB;
     background-color: #4B5563;
 }
-button {
+.bttn-hero {
     background-color: #3882F6;
     border: none;
-    border-radius: 12%;
+    border-radius: 15px;
     width: 100px;
     padding: 5px;
     font-size: 18px;
@@ -154,4 +154,39 @@ img {
     font-weight: bold;
     display: flex;
     flex-direction: row-reverse;
+}
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cta {
+    background-color: #3882F6;
+    flex-basis: 60%;
+    display: flex;
+    padding: 20px;
+    border-radius: 25px;
+}
+.cta-text {
+    flex-basis: 70%;
+}
+.cta-button {
+    display: flex;
+    align-items: center;
+}
+.bttn-cta {
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 100px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E5E7EB;
+}
+.its-time {
+    font-weight: 900;
+    margin-bottom: -20px; /*Bottom text gets pulled to this heading*/
 }
